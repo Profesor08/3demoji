@@ -1,0 +1,1 @@
+{"version":3,"sources":["scss\\main.scss"],"names":[],"mappings":"AAAA;EACE;EACA;;;AAGF;EACE;EACA;EACA","file":"main.09dc5dbc.css","sourceRoot":"..\\src","sourcesContent":["body {\r\n  margin: 0;\r\n  overflow: hidden;\r\n}\r\n\r\n#app {\r\n  margin: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n"]}

@@ -1,0 +1,35 @@
+{
+  "name": "3demoji",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html -p 3000",
+    "build": "rmdir /S /Q docs & parcel build src/index.html --out-dir docs/ --public-url ./ --no-minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Profesor08/3demoji.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Profesor08/3demoji/issues"
+  },
+  "homepage": "https://github.com/Profesor08/3demoji#readme",
+  "dependencies": {
+    "@types/gsap": "^1.20.2",
+    "@types/node": "^12.6.2",
+    "gsap": "^2.1.3",
+    "three": "^0.106.2",
+    "three-orbit-controls": "^82.1.0"
+  },
+  "devDependencies": {
+    "glslify-bundle": "^5.1.1",
+    "glslify-deps": "^1.3.1",
+    "sass": "^1.22.3",
+    "typescript": "^3.5.3"
+  }
+}
